@@ -22,14 +22,14 @@ body{
 }
 
 #showcase{
-  background: var(--primary-color);
+  background:rgba(68, 120, 136, 0.75);
   color:white;
   height: 100vh;
   position: relative;
 }
 #showcase:before{
   content: '';
-  background: url('../img/showcase.jpg') no-repeat center center/cover;
+  background: url('../img/stork.jpg') no-repeat center center/cover;
   position:absolute;
   top: 0;
   left: 0;
@@ -60,11 +60,12 @@ body{
   color:white;
   padding:0.75rem 1.5rem;
   margin-top: 1rem;
-  transition: opacity 1s ease-in-out;
+  transition: all 0.4s ease-in-out;
   text-decoration: none;
 }
 .btn:hover{
-  opacity: 0.7;
+  opacity: 0.6;
+  scale: 1.1;
 }
 
 
